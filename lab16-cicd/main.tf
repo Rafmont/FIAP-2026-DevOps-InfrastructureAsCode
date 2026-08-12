@@ -103,7 +103,7 @@ resource "aws_instance" "web_server" {
               apt-get install -y nginx
               systemctl start nginx
               systemctl enable nginx
-              echo "<h1>Esse é o meu deploy!</h1>" > /var/www/html/index.html
+              echo "<h1>Meu Deploy 12/08!</h1>" > /var/www/html/index.html
               EOF
 
   tags = {
